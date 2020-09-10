@@ -1,4 +1,4 @@
-module github.com/google/certificate-transparency-go
+module github.com/ctylim/certificate-transparency-go
 
 go 1.12
 
