@@ -31,7 +31,7 @@ func initSECP192R1() {
 	p192r1.BitSize = 192
 }
 
-func secp192r1() elliptic.Curve {
+func Secp192r1() elliptic.Curve {
 	initonce.Do(initAllCurves)
 	return p192r1
 }

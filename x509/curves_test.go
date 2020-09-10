@@ -10,7 +10,7 @@ import (
 )
 
 func TestSECP192R1(t *testing.T) {
-	curve := secp192r1()
+	curve := Secp192r1()
 	vectors := []struct {
 		k    string // base 10
 		x, y string // base 16
