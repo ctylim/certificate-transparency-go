@@ -31,12 +31,12 @@ import (
 	"time"
 
 	"github.com/golang/glog"
-	"github.com/google/certificate-transparency-go/ctutil"
-	"github.com/google/certificate-transparency-go/loglist"
-	"github.com/google/certificate-transparency-go/x509"
-	"github.com/google/certificate-transparency-go/x509util"
+	"github.com/ctylim/certificate-transparency-go/ctutil"
+	"github.com/ctylim/certificate-transparency-go/loglist"
+	"github.com/ctylim/certificate-transparency-go/x509"
+	"github.com/ctylim/certificate-transparency-go/x509util"
 
-	ct "github.com/google/certificate-transparency-go"
+	ct "github.com/ctylim/certificate-transparency-go"
 )
 
 var (

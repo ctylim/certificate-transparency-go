@@ -23,7 +23,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/google/certificate-transparency-go/testdata"
+	"github.com/ctylim/certificate-transparency-go/testdata"
 )
 
 var sampleLogList = LogList{

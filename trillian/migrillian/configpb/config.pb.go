@@ -22,7 +22,7 @@ package configpb
 
 import (
 	proto "github.com/golang/protobuf/proto"
-	configpb "github.com/google/certificate-transparency-go/trillian/ctfe/configpb"
+	configpb "github.com/ctylim/certificate-transparency-go/trillian/ctfe/configpb"
 	keyspb "github.com/google/trillian/crypto/keyspb"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"

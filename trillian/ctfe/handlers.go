@@ -32,10 +32,10 @@ import (
 	"time"
 
 	"github.com/golang/glog"
-	"github.com/google/certificate-transparency-go/asn1"
-	"github.com/google/certificate-transparency-go/tls"
-	"github.com/google/certificate-transparency-go/trillian/util"
-	"github.com/google/certificate-transparency-go/x509"
+	"github.com/ctylim/certificate-transparency-go/asn1"
+	"github.com/ctylim/certificate-transparency-go/tls"
+	"github.com/ctylim/certificate-transparency-go/trillian/util"
+	"github.com/ctylim/certificate-transparency-go/x509"
 	"github.com/google/trillian"
 	"github.com/google/trillian/monitoring"
 	"github.com/google/trillian/types"
@@ -43,7 +43,7 @@ import (
 	"google.golang.org/grpc/status"
 	"google.golang.org/protobuf/encoding/prototext"
 
-	ct "github.com/google/certificate-transparency-go"
+	ct "github.com/ctylim/certificate-transparency-go"
 )
 
 var (

@@ -19,7 +19,7 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"github.com/google/certificate-transparency-go/x509"
+	"github.com/ctylim/certificate-transparency-go/x509"
 )
 
 // CertificateQuotaUserPrefix is prepended to all User quota ids association

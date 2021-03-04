@@ -19,7 +19,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/google/certificate-transparency-go/trillian/testdata"
+	"github.com/ctylim/certificate-transparency-go/trillian/testdata"
 	"github.com/google/trillian/crypto/keys/pem"
 )
 

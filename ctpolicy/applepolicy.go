@@ -15,8 +15,8 @@
 package ctpolicy
 
 import (
-	"github.com/google/certificate-transparency-go/loglist2"
-	"github.com/google/certificate-transparency-go/x509"
+	"github.com/ctylim/certificate-transparency-go/loglist2"
+	"github.com/ctylim/certificate-transparency-go/x509"
 )
 
 // AppleCTPolicy implements logic for complying with Apple's CT log policy.
