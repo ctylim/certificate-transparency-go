@@ -20,8 +20,8 @@ import (
 	"time"
 
 	"github.com/golang/glog"
-	ct "github.com/ctylim/certificate-transparency-go"
-	"github.com/ctylim/certificate-transparency-go/client"
+	ct "github.com/ctylim/certificate-transparency-go-p192"
+	"github.com/ctylim/certificate-transparency-go-p192/client"
 	"github.com/google/trillian/client/backoff"
 )
 

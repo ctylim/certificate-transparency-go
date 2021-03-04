@@ -25,7 +25,7 @@ import (
 	mrand "math/rand"
 	"testing"
 
-	"github.com/ctylim/certificate-transparency-go/tls"
+	"github.com/ctylim/certificate-transparency-go-p192/tls"
 )
 
 const (

@@ -16,8 +16,8 @@ package loglist2
 
 import (
 	"github.com/golang/glog"
-	"github.com/ctylim/certificate-transparency-go/trillian/ctfe"
-	"github.com/ctylim/certificate-transparency-go/x509"
+	"github.com/ctylim/certificate-transparency-go-p192/trillian/ctfe"
+	"github.com/ctylim/certificate-transparency-go-p192/x509"
 )
 
 // LogRoots maps Log-URLs (stated at LogList) to the pools of their accepted

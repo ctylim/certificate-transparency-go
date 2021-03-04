@@ -26,11 +26,11 @@ import (
 	"os"
 	"sync"
 
-	"github.com/ctylim/certificate-transparency-go/client"
-	"github.com/ctylim/certificate-transparency-go/fixchain"
-	"github.com/ctylim/certificate-transparency-go/fixchain/ratelimiter"
-	"github.com/ctylim/certificate-transparency-go/jsonclient"
-	"github.com/ctylim/certificate-transparency-go/x509"
+	"github.com/ctylim/certificate-transparency-go-p192/client"
+	"github.com/ctylim/certificate-transparency-go-p192/fixchain"
+	"github.com/ctylim/certificate-transparency-go-p192/fixchain/ratelimiter"
+	"github.com/ctylim/certificate-transparency-go-p192/jsonclient"
+	"github.com/ctylim/certificate-transparency-go-p192/x509"
 )
 
 // Assumes chains to be stores in a file in JSON encoded with the certificates

@@ -6,7 +6,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/ctylim/certificate-transparency-go/x509"
+	"github.com/ctylim/certificate-transparency-go-p192/x509"
 )
 
 func TestErrors(t *testing.T) {

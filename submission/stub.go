@@ -19,11 +19,11 @@ import (
 	"crypto/sha256"
 	"fmt"
 
-	ct "github.com/ctylim/certificate-transparency-go"
-	"github.com/ctylim/certificate-transparency-go/client"
-	"github.com/ctylim/certificate-transparency-go/loglist2"
-	"github.com/ctylim/certificate-transparency-go/tls"
-	"github.com/ctylim/certificate-transparency-go/x509util"
+	ct "github.com/ctylim/certificate-transparency-go-p192"
+	"github.com/ctylim/certificate-transparency-go-p192/client"
+	"github.com/ctylim/certificate-transparency-go-p192/loglist2"
+	"github.com/ctylim/certificate-transparency-go-p192/tls"
+	"github.com/ctylim/certificate-transparency-go-p192/x509util"
 )
 
 type rootInfo struct {

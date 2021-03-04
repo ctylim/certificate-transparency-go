@@ -21,8 +21,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/ctylim/certificate-transparency-go/tls"
-	"github.com/ctylim/certificate-transparency-go/x509"
+	"github.com/ctylim/certificate-transparency-go-p192/tls"
+	"github.com/ctylim/certificate-transparency-go-p192/x509"
 )
 
 ///////////////////////////////////////////////////////////////////////////////

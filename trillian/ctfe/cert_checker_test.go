@@ -21,11 +21,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ctylim/certificate-transparency-go/asn1"
-	"github.com/ctylim/certificate-transparency-go/trillian/ctfe/testonly"
-	"github.com/ctylim/certificate-transparency-go/x509"
-	"github.com/ctylim/certificate-transparency-go/x509/pkix"
-	"github.com/ctylim/certificate-transparency-go/x509util"
+	"github.com/ctylim/certificate-transparency-go-p192/asn1"
+	"github.com/ctylim/certificate-transparency-go-p192/trillian/ctfe/testonly"
+	"github.com/ctylim/certificate-transparency-go-p192/x509"
+	"github.com/ctylim/certificate-transparency-go-p192/x509/pkix"
+	"github.com/ctylim/certificate-transparency-go-p192/x509util"
 )
 
 func wipeExtensions(cert *x509.Certificate) *x509.Certificate {

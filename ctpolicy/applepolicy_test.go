@@ -16,7 +16,7 @@ package ctpolicy
 import (
 	"testing"
 
-	"github.com/ctylim/certificate-transparency-go/x509"
+	"github.com/ctylim/certificate-transparency-go-p192/x509"
 
 	"github.com/kylelemons/godebug/pretty"
 )

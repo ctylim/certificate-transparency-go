@@ -19,7 +19,7 @@ import (
 	"encoding/pem"
 	"net/http"
 
-	"github.com/ctylim/certificate-transparency-go/x509"
+	"github.com/ctylim/certificate-transparency-go-p192/x509"
 )
 
 // Fix attempts to fix the certificate chain for the certificate that is passed

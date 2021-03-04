@@ -15,4 +15,4 @@
 // Package configpb holds a config protobuf for Migrillian.
 package configpb
 
-//go:generate sh -c "protoc -I=. -I$(go list -f '{{ .Dir }}' github.com/google/trillian) -I$(go list -f '{{ .Dir }}' github.com/ctylim/certificate-transparency-go) --go_out=paths=source_relative:. config.proto"
+//go:generate sh -c "protoc -I=. -I$(go list -f '{{ .Dir }}' github.com/google/trillian) -I$(go list -f '{{ .Dir }}' github.com/ctylim/certificate-transparency-go-p192) --go_out=paths=source_relative:. config.proto"

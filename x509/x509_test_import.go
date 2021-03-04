@@ -16,8 +16,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ctylim/certificate-transparency-go/x509"
-	"github.com/ctylim/certificate-transparency-go/x509/pkix"
+	"github.com/ctylim/certificate-transparency-go-p192/x509"
+	"github.com/ctylim/certificate-transparency-go-p192/x509/pkix"
 )
 
 func main() {

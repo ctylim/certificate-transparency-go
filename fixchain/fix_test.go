@@ -18,7 +18,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/ctylim/certificate-transparency-go/x509"
+	"github.com/ctylim/certificate-transparency-go-p192/x509"
 )
 
 var constructChainTests = []fixTest{

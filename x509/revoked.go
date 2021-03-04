@@ -10,8 +10,8 @@ import (
 	"encoding/pem"
 	"time"
 
-	"github.com/ctylim/certificate-transparency-go/asn1"
-	"github.com/ctylim/certificate-transparency-go/x509/pkix"
+	"github.com/ctylim/certificate-transparency-go-p192/asn1"
+	"github.com/ctylim/certificate-transparency-go-p192/x509/pkix"
 )
 
 // OID values for CRL extensions (TBSCertList.Extensions), RFC 5280 s5.2.

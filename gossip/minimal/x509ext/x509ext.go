@@ -19,11 +19,11 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ctylim/certificate-transparency-go/asn1"
-	"github.com/ctylim/certificate-transparency-go/tls"
-	"github.com/ctylim/certificate-transparency-go/x509"
+	"github.com/ctylim/certificate-transparency-go-p192/asn1"
+	"github.com/ctylim/certificate-transparency-go-p192/tls"
+	"github.com/ctylim/certificate-transparency-go-p192/x509"
 
-	ct "github.com/ctylim/certificate-transparency-go"
+	ct "github.com/ctylim/certificate-transparency-go-p192"
 )
 
 // OIDExtensionCTSTH is the OID value for an X.509 extension that holds

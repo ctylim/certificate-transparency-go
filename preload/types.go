@@ -16,7 +16,7 @@
 package preload
 
 import (
-	ct "github.com/ctylim/certificate-transparency-go"
+	ct "github.com/ctylim/certificate-transparency-go-p192"
 )
 
 // AddedCert holds information about a certificate that has been added to a log.

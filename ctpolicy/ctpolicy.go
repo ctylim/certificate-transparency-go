@@ -19,8 +19,8 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/ctylim/certificate-transparency-go/loglist2"
-	"github.com/ctylim/certificate-transparency-go/x509"
+	"github.com/ctylim/certificate-transparency-go-p192/loglist2"
+	"github.com/ctylim/certificate-transparency-go-p192/x509"
 )
 
 const (

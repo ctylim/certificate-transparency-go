@@ -12,7 +12,7 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/ctylim/certificate-transparency-go/asn1"
+	"github.com/ctylim/certificate-transparency-go-p192/asn1"
 )
 
 // AlgorithmIdentifier represents the ASN.1 structure of the same name. See RFC

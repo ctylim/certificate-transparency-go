@@ -20,7 +20,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ctylim/certificate-transparency-go/trillian/ctfe/configpb"
+	"github.com/ctylim/certificate-transparency-go-p192/trillian/ctfe/configpb"
 	"github.com/google/trillian/crypto/keys/der"
 	_ "github.com/google/trillian/crypto/keys/der/proto" // Register key handler.
 	"github.com/google/trillian/crypto/keys/pem"

@@ -1,8 +1,8 @@
 # Certificate Transparency: Go Code
 
 [![Build Status](https://travis-ci.org/google/certificate-transparency-go.svg?branch=master)](https://travis-ci.org/google/certificate-transparency-go)
-[![Go Report Card](https://goreportcard.com/badge/github.com/ctylim/certificate-transparency-go)](https://goreportcard.com/report/github.com/ctylim/certificate-transparency-go)
-[![GoDoc](https://godoc.org/github.com/ctylim/certificate-transparency-go?status.svg)](https://godoc.org/github.com/ctylim/certificate-transparency-go)
+[![Go Report Card](https://goreportcard.com/badge/github.com/ctylim/certificate-transparency-go-p192)](https://goreportcard.com/report/github.com/ctylim/certificate-transparency-go-p192)
+[![GoDoc](https://godoc.org/github.com/ctylim/certificate-transparency-go-p192?status.svg)](https://godoc.org/github.com/ctylim/certificate-transparency-go-p192)
 
 This repository holds Go code related to
 [Certificate Transparency](https://www.certificate-transparency.org/) (CT).  The
@@ -80,7 +80,7 @@ document.
 
 In order for the `go generate` command to work properly, the code must
 be checked out to the following location:
-`$GOPATH/src/github.com/ctylim/certificate-transparency-go`
+`$GOPATH/src/github.com/ctylim/certificate-transparency-go-p192`
 
 
 ### Running Codebase Checks

@@ -18,8 +18,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ctylim/certificate-transparency-go/trillian/ctfe/testonly"
-	"github.com/ctylim/certificate-transparency-go/trillian/migrillian/configpb"
+	"github.com/ctylim/certificate-transparency-go-p192/trillian/ctfe/testonly"
+	"github.com/ctylim/certificate-transparency-go-p192/trillian/migrillian/configpb"
 	kto "github.com/google/trillian/crypto/keys/testonly"
 	"github.com/google/trillian/crypto/keyspb"
 )

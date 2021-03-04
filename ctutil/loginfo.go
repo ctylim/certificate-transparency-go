@@ -23,12 +23,12 @@ import (
 	"sync"
 	"time"
 
-	ct "github.com/ctylim/certificate-transparency-go"
-	"github.com/ctylim/certificate-transparency-go/client"
-	"github.com/ctylim/certificate-transparency-go/dnsclient"
-	"github.com/ctylim/certificate-transparency-go/jsonclient"
-	"github.com/ctylim/certificate-transparency-go/loglist"
-	"github.com/ctylim/certificate-transparency-go/x509"
+	ct "github.com/ctylim/certificate-transparency-go-p192"
+	"github.com/ctylim/certificate-transparency-go-p192/client"
+	"github.com/ctylim/certificate-transparency-go-p192/dnsclient"
+	"github.com/ctylim/certificate-transparency-go-p192/jsonclient"
+	"github.com/ctylim/certificate-transparency-go-p192/loglist"
+	"github.com/ctylim/certificate-transparency-go-p192/x509"
 	"github.com/google/trillian/merkle"
 	"github.com/google/trillian/merkle/rfc6962"
 )

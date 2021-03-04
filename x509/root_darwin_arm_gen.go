@@ -31,7 +31,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/ctylim/certificate-transparency-go/x509"
+	"github.com/ctylim/certificate-transparency-go-p192/x509"
 )
 
 var output = flag.String("output", "root_darwin_armx.go", "file name to write")

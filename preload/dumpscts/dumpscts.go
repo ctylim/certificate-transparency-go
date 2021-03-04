@@ -22,7 +22,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/ctylim/certificate-transparency-go/preload"
+	"github.com/ctylim/certificate-transparency-go-p192/preload"
 )
 
 var sctFile = flag.String("sct_file", "", "File to load SCTs & leaf data from")

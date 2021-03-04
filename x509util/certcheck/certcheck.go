@@ -25,8 +25,8 @@ import (
 	"strings"
 
 	"github.com/golang/glog"
-	"github.com/ctylim/certificate-transparency-go/x509"
-	"github.com/ctylim/certificate-transparency-go/x509util"
+	"github.com/ctylim/certificate-transparency-go-p192/x509"
+	"github.com/ctylim/certificate-transparency-go-p192/x509util"
 )
 
 var (

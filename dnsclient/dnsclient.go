@@ -29,9 +29,9 @@ import (
 	"strings"
 
 	"github.com/golang/glog"
-	ct "github.com/ctylim/certificate-transparency-go"
-	"github.com/ctylim/certificate-transparency-go/jsonclient"
-	"github.com/ctylim/certificate-transparency-go/tls"
+	ct "github.com/ctylim/certificate-transparency-go-p192"
+	"github.com/ctylim/certificate-transparency-go-p192/jsonclient"
+	"github.com/ctylim/certificate-transparency-go-p192/tls"
 )
 
 // DNSClient represents a DNS client for a given CT Log instance

@@ -11,7 +11,7 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ctylim/certificate-transparency-go/asn1"
+	"github.com/ctylim/certificate-transparency-go-p192/asn1"
 )
 
 const ecPrivKeyVersion = 1

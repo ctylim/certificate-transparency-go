@@ -22,7 +22,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/ctylim/certificate-transparency-go/x509"
+	"github.com/ctylim/certificate-transparency-go-p192/x509"
 )
 
 // ReadPossiblePEMFile loads data from a file which may be in DER format

@@ -23,7 +23,7 @@ TO_KILL+=(${ETCDISCOVER_PID})
 TO_DELETE="${TO_DELETE} ${CT_CFG} ${CT_LIFECYCLE_CFG} ${CT_COMBINED_CONFIG}"
 TO_KILL+=(${CT_SERVER_PIDS[@]})
 
-COMMON_ARGS="--ct_http_servers=${CT_SERVERS} --ct_metrics_servers=${CT_METRICS_SERVERS} --testdata_dir="$(go list -f '{{ .Dir }}' github.com/ctylim/certificate-transparency-go)"/trillian/testdata"
+COMMON_ARGS="--ct_http_servers=${CT_SERVERS} --ct_metrics_servers=${CT_METRICS_SERVERS} --testdata_dir="$(go list -f '{{ .Dir }}' github.com/ctylim/certificate-transparency-go-p192)"/trillian/testdata"
 
 echo "Running test(s)"
 pushd "${INTEGRATION_DIR}"

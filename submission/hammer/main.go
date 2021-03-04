@@ -27,9 +27,9 @@ import (
 	"sync"
 	"time"
 
-	ct "github.com/ctylim/certificate-transparency-go"
-	"github.com/ctylim/certificate-transparency-go/schedule"
-	"github.com/ctylim/certificate-transparency-go/submission"
+	ct "github.com/ctylim/certificate-transparency-go-p192"
+	"github.com/ctylim/certificate-transparency-go-p192/schedule"
+	"github.com/ctylim/certificate-transparency-go-p192/submission"
 )
 
 // Default number of submissions is intentionally low.

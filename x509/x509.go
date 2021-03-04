@@ -73,9 +73,9 @@ import (
 	cryptobyte_asn1 "golang.org/x/crypto/cryptobyte/asn1"
 	"golang.org/x/crypto/ed25519"
 
-	"github.com/ctylim/certificate-transparency-go/asn1"
-	"github.com/ctylim/certificate-transparency-go/tls"
-	"github.com/ctylim/certificate-transparency-go/x509/pkix"
+	"github.com/ctylim/certificate-transparency-go-p192/asn1"
+	"github.com/ctylim/certificate-transparency-go-p192/tls"
+	"github.com/ctylim/certificate-transparency-go-p192/x509/pkix"
 )
 
 // pkixPublicKey reflects a PKIX public key structure. See SubjectPublicKeyInfo

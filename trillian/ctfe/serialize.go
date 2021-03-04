@@ -22,9 +22,9 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/ctylim/certificate-transparency-go/tls"
+	"github.com/ctylim/certificate-transparency-go-p192/tls"
 
-	ct "github.com/ctylim/certificate-transparency-go"
+	ct "github.com/ctylim/certificate-transparency-go-p192"
 )
 
 // SignatureCache is a one-entry cache that stores the last generated signature
