@@ -21,7 +21,7 @@ import (
 	"fmt"
 
 	"github.com/golang/glog"
-	ct "github.com/ctylim/certificate-transparency-go-p192"
+	ct "github.com/ctylim/certificate-transparency-go"
 	"github.com/google/trillian"
 	"github.com/google/trillian/types"
 	"google.golang.org/protobuf/encoding/prototext"

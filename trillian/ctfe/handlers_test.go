@@ -34,12 +34,12 @@ import (
 
 	"github.com/golang/glog"
 	"github.com/golang/mock/gomock"
-	"github.com/ctylim/certificate-transparency-go-p192/tls"
-	"github.com/ctylim/certificate-transparency-go-p192/trillian/mockclient"
-	"github.com/ctylim/certificate-transparency-go-p192/trillian/testdata"
-	"github.com/ctylim/certificate-transparency-go-p192/trillian/util"
-	"github.com/ctylim/certificate-transparency-go-p192/x509"
-	"github.com/ctylim/certificate-transparency-go-p192/x509util"
+	"github.com/ctylim/certificate-transparency-go/tls"
+	"github.com/ctylim/certificate-transparency-go/trillian/mockclient"
+	"github.com/ctylim/certificate-transparency-go/trillian/testdata"
+	"github.com/ctylim/certificate-transparency-go/trillian/util"
+	"github.com/ctylim/certificate-transparency-go/x509"
+	"github.com/ctylim/certificate-transparency-go/x509util"
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
 	"github.com/google/trillian"
@@ -51,9 +51,9 @@ import (
 	"google.golang.org/grpc/status"
 	"google.golang.org/protobuf/proto"
 
-	ct "github.com/ctylim/certificate-transparency-go-p192"
-	"github.com/ctylim/certificate-transparency-go-p192/trillian/ctfe/configpb"
-	cttestonly "github.com/ctylim/certificate-transparency-go-p192/trillian/ctfe/testonly"
+	ct "github.com/ctylim/certificate-transparency-go"
+	"github.com/ctylim/certificate-transparency-go/trillian/ctfe/configpb"
+	cttestonly "github.com/ctylim/certificate-transparency-go/trillian/ctfe/testonly"
 )
 
 // Arbitrary time for use in tests

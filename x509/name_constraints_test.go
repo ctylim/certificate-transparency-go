@@ -24,8 +24,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ctylim/certificate-transparency-go-p192/asn1"
-	"github.com/ctylim/certificate-transparency-go-p192/x509/pkix"
+	"github.com/ctylim/certificate-transparency-go/asn1"
+	"github.com/ctylim/certificate-transparency-go/x509/pkix"
 )
 
 const (

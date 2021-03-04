@@ -19,8 +19,8 @@ import (
 	"errors"
 	"strconv"
 
-	ct "github.com/ctylim/certificate-transparency-go-p192"
-	"github.com/ctylim/certificate-transparency-go-p192/x509"
+	ct "github.com/ctylim/certificate-transparency-go"
+	"github.com/ctylim/certificate-transparency-go/x509"
 )
 
 // GetRawEntries exposes the /ct/v1/get-entries result with only the JSON parsing done.

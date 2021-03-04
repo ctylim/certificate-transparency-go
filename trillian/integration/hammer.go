@@ -26,17 +26,17 @@ import (
 	"time"
 
 	"github.com/golang/glog"
-	"github.com/ctylim/certificate-transparency-go-p192/client"
-	"github.com/ctylim/certificate-transparency-go-p192/schedule"
-	"github.com/ctylim/certificate-transparency-go-p192/tls"
-	"github.com/ctylim/certificate-transparency-go-p192/trillian/ctfe"
-	"github.com/ctylim/certificate-transparency-go-p192/trillian/ctfe/configpb"
-	"github.com/ctylim/certificate-transparency-go-p192/x509"
+	"github.com/ctylim/certificate-transparency-go/client"
+	"github.com/ctylim/certificate-transparency-go/schedule"
+	"github.com/ctylim/certificate-transparency-go/tls"
+	"github.com/ctylim/certificate-transparency-go/trillian/ctfe"
+	"github.com/ctylim/certificate-transparency-go/trillian/ctfe/configpb"
+	"github.com/ctylim/certificate-transparency-go/x509"
 	"github.com/google/trillian/merkle"
 	"github.com/google/trillian/merkle/rfc6962"
 	"github.com/google/trillian/monitoring"
 
-	ct "github.com/ctylim/certificate-transparency-go-p192"
+	ct "github.com/ctylim/certificate-transparency-go"
 )
 
 const (

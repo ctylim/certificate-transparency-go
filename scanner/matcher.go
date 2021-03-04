@@ -21,10 +21,10 @@ import (
 	"regexp"
 	"time"
 
-	ct "github.com/ctylim/certificate-transparency-go-p192"
-	"github.com/ctylim/certificate-transparency-go-p192/asn1"
-	"github.com/ctylim/certificate-transparency-go-p192/client"
-	"github.com/ctylim/certificate-transparency-go-p192/x509"
+	ct "github.com/ctylim/certificate-transparency-go"
+	"github.com/ctylim/certificate-transparency-go/asn1"
+	"github.com/ctylim/certificate-transparency-go/client"
+	"github.com/ctylim/certificate-transparency-go/x509"
 )
 
 // Matcher describes how to match certificates and precertificates, based solely on the parsed [pre-]certificate;

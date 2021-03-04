@@ -24,8 +24,8 @@ import (
 	"strings"
 	"time"
 
-	ct "github.com/ctylim/certificate-transparency-go-p192"
-	"github.com/ctylim/certificate-transparency-go-p192/trillian/ctfe"
+	ct "github.com/ctylim/certificate-transparency-go"
+	"github.com/ctylim/certificate-transparency-go/trillian/ctfe"
 	"github.com/google/trillian/monitoring"
 )
 

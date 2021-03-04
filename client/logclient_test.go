@@ -31,13 +31,13 @@ import (
 	"testing"
 	"time"
 
-	ct "github.com/ctylim/certificate-transparency-go-p192"
-	"github.com/ctylim/certificate-transparency-go-p192/client"
-	"github.com/ctylim/certificate-transparency-go-p192/jsonclient"
-	"github.com/ctylim/certificate-transparency-go-p192/testdata"
-	"github.com/ctylim/certificate-transparency-go-p192/tls"
-	"github.com/ctylim/certificate-transparency-go-p192/x509"
-	"github.com/ctylim/certificate-transparency-go-p192/x509util"
+	ct "github.com/ctylim/certificate-transparency-go"
+	"github.com/ctylim/certificate-transparency-go/client"
+	"github.com/ctylim/certificate-transparency-go/jsonclient"
+	"github.com/ctylim/certificate-transparency-go/testdata"
+	"github.com/ctylim/certificate-transparency-go/tls"
+	"github.com/ctylim/certificate-transparency-go/x509"
+	"github.com/ctylim/certificate-transparency-go/x509util"
 )
 
 func dh(s string) []byte {

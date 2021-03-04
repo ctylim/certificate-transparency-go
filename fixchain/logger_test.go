@@ -20,8 +20,8 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/ctylim/certificate-transparency-go-p192/client"
-	"github.com/ctylim/certificate-transparency-go-p192/jsonclient"
+	"github.com/ctylim/certificate-transparency-go/client"
+	"github.com/ctylim/certificate-transparency-go/jsonclient"
 )
 
 // NewLogger() test

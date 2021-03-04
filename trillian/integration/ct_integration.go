@@ -37,12 +37,12 @@ import (
 	"time"
 
 	"github.com/golang/protobuf/ptypes"
-	"github.com/ctylim/certificate-transparency-go-p192/client"
-	"github.com/ctylim/certificate-transparency-go-p192/jsonclient"
-	"github.com/ctylim/certificate-transparency-go-p192/trillian/ctfe"
-	"github.com/ctylim/certificate-transparency-go-p192/trillian/ctfe/configpb"
-	"github.com/ctylim/certificate-transparency-go-p192/x509"
-	"github.com/ctylim/certificate-transparency-go-p192/x509/pkix"
+	"github.com/ctylim/certificate-transparency-go/client"
+	"github.com/ctylim/certificate-transparency-go/jsonclient"
+	"github.com/ctylim/certificate-transparency-go/trillian/ctfe"
+	"github.com/ctylim/certificate-transparency-go/trillian/ctfe/configpb"
+	"github.com/ctylim/certificate-transparency-go/x509"
+	"github.com/ctylim/certificate-transparency-go/x509/pkix"
 	"github.com/google/trillian"
 	"github.com/google/trillian/crypto/keyspb"
 	"github.com/google/trillian/merkle"
@@ -52,7 +52,7 @@ import (
 	"google.golang.org/genproto/protobuf/field_mask"
 	"google.golang.org/grpc"
 
-	ct "github.com/ctylim/certificate-transparency-go-p192"
+	ct "github.com/ctylim/certificate-transparency-go"
 	keyspem "github.com/google/trillian/crypto/keys/pem"
 )
 

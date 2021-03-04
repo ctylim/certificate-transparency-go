@@ -237,7 +237,7 @@ NIST CURVE: P-256
 ([below](#ctfe-start-up)), the `ctclient` command-line tool allows signature
 checking against the public key with the `--pub_key` option:
 ```bash
-% go install github.com/ctylim/certificate-transparency-go-p192/client/ctclient
+% go install github.com/ctylim/certificate-transparency-go/client/ctclient
 % ctclient --log_uri http://localhost:6966/aramis --pub_key pubkey.pem sth
 2018-10-12 11:28:08.544 +0100 BST (timestamp 1539340088544): Got STH for V1 log (size=11718) at http://localhost:6966/aramis, hash 6fb36fcca60d61aa85e04ff0c34a87782f12d08568118602eec0208d85c3a40d
 Signature: Hash=SHA256 Sign=ECDSA
@@ -267,7 +267,7 @@ Alternatively, the `ctclient` command-line tool shows the same information in a
 more friendly way:
 
 ```bash
-% go install github.com/ctylim/certificate-transparency-go-p192/client/ctclient
+% go install github.com/ctylim/certificate-transparency-go/client/ctclient
 % ctclient --log_uri http://localhost:6966/aramis getroots
 Certificate:
     Data:
@@ -310,7 +310,7 @@ Each Log instance needs configuration for:
 ### CTFE Start-up
 
 Once the CTFE config file has been assembled, the CTFE personality
-(`github.com/ctylim/certificate-transparency-go-p192/trillian/ctfe/ct_server`)
+(`github.com/ctylim/certificate-transparency-go/trillian/ctfe/ct_server`)
 can be started.
 
  - The `--log_config` option gives the location of the configuration file.
@@ -328,7 +328,7 @@ script should (mostly) make sense.
 browser should show JSON that indicates an empty tree.
 Alternatively, the `ctclient` command-line tool shows the same information:
 ```bash
-% go install github.com/ctylim/certificate-transparency-go-p192/client/ctclient
+% go install github.com/ctylim/certificate-transparency-go/client/ctclient
 % ctclient --log_uri http://localhost:6966/aramis sth
 2018-10-12 11:28:08.544 +0100 BST (timestamp 1539340088544): Got STH for V1 log (size=11718) at http://localhost:6966/aramis, hash 6fb36fcca60d61aa85e04ff0c34a87782f12d08568118602eec0208d85c3a40d
 Signature: Hash=SHA256 Sign=ECDSA

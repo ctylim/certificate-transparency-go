@@ -22,8 +22,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ctylim/certificate-transparency-go-p192/tls"
-	"github.com/ctylim/certificate-transparency-go-p192/x509"
+	"github.com/ctylim/certificate-transparency-go/tls"
+	"github.com/ctylim/certificate-transparency-go/x509"
 )
 
 // SerializeSCTSignatureInput serializes the passed in sct and log entry into

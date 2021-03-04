@@ -24,14 +24,14 @@ import (
 	"time"
 
 	"github.com/golang/glog"
-	ct "github.com/ctylim/certificate-transparency-go-p192"
-	"github.com/ctylim/certificate-transparency-go-p192/client"
-	"github.com/ctylim/certificate-transparency-go-p192/ctutil"
-	"github.com/ctylim/certificate-transparency-go-p192/jsonclient"
-	"github.com/ctylim/certificate-transparency-go-p192/loglist"
-	"github.com/ctylim/certificate-transparency-go-p192/scanner"
-	"github.com/ctylim/certificate-transparency-go-p192/x509"
-	"github.com/ctylim/certificate-transparency-go-p192/x509util"
+	ct "github.com/ctylim/certificate-transparency-go"
+	"github.com/ctylim/certificate-transparency-go/client"
+	"github.com/ctylim/certificate-transparency-go/ctutil"
+	"github.com/ctylim/certificate-transparency-go/jsonclient"
+	"github.com/ctylim/certificate-transparency-go/loglist"
+	"github.com/ctylim/certificate-transparency-go/scanner"
+	"github.com/ctylim/certificate-transparency-go/x509"
+	"github.com/ctylim/certificate-transparency-go/x509util"
 )
 
 var (

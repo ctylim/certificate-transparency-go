@@ -28,13 +28,13 @@ import (
 
 	"github.com/golang/protobuf/ptypes"
 	"github.com/golang/protobuf/ptypes/timestamp"
-	"github.com/ctylim/certificate-transparency-go-p192/client"
-	"github.com/ctylim/certificate-transparency-go-p192/jsonclient"
-	"github.com/ctylim/certificate-transparency-go-p192/tls"
-	"github.com/ctylim/certificate-transparency-go-p192/trillian/ctfe/configpb"
-	"github.com/ctylim/certificate-transparency-go-p192/x509"
+	"github.com/ctylim/certificate-transparency-go/client"
+	"github.com/ctylim/certificate-transparency-go/jsonclient"
+	"github.com/ctylim/certificate-transparency-go/tls"
+	"github.com/ctylim/certificate-transparency-go/trillian/ctfe/configpb"
+	"github.com/ctylim/certificate-transparency-go/x509"
 
-	ct "github.com/ctylim/certificate-transparency-go-p192"
+	ct "github.com/ctylim/certificate-transparency-go"
 )
 
 func TestHammer_NotAfter(t *testing.T) {

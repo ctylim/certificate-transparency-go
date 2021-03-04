@@ -18,7 +18,7 @@ import (
 	"encoding/pem"
 	"log"
 
-	"github.com/ctylim/certificate-transparency-go-p192/x509"
+	"github.com/ctylim/certificate-transparency-go/x509"
 )
 
 // Go has no PKCS#7 implementation. Rather than fix that, manually

@@ -24,9 +24,9 @@ import (
 	"testing"
 
 	"github.com/golang/mock/gomock"
-	ct "github.com/ctylim/certificate-transparency-go-p192"
-	"github.com/ctylim/certificate-transparency-go-p192/tls"
-	"github.com/ctylim/certificate-transparency-go-p192/trillian/mockclient"
+	ct "github.com/ctylim/certificate-transparency-go"
+	"github.com/ctylim/certificate-transparency-go/tls"
+	"github.com/ctylim/certificate-transparency-go/trillian/mockclient"
 	"github.com/google/trillian"
 	"github.com/google/trillian/types"
 )

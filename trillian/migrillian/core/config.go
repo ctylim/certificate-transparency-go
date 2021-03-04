@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/ctylim/certificate-transparency-go-p192/trillian/migrillian/configpb"
+	"github.com/ctylim/certificate-transparency-go/trillian/migrillian/configpb"
 	"google.golang.org/protobuf/encoding/prototext"
 	"google.golang.org/protobuf/proto"
 )

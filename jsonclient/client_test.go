@@ -28,7 +28,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ctylim/certificate-transparency-go-p192/testdata"
+	"github.com/ctylim/certificate-transparency-go/testdata"
 )
 
 func publicKeyPEMToDER(key string) []byte {

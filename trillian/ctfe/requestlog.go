@@ -19,8 +19,8 @@ import (
 	"time"
 
 	"github.com/golang/glog"
-	"github.com/ctylim/certificate-transparency-go-p192/x509"
-	"github.com/ctylim/certificate-transparency-go-p192/x509util"
+	"github.com/ctylim/certificate-transparency-go/x509"
+	"github.com/ctylim/certificate-transparency-go/x509util"
 )
 
 const vLevel = 9

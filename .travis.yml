@@ -3,7 +3,7 @@ os: linux
 dist: xenial
 language: go
 go: "1.14.x"
-go_import_path: github.com/ctylim/certificate-transparency-go-p192
+go_import_path: github.com/ctylim/certificate-transparency-go
 
 env:
   global:
@@ -80,7 +80,7 @@ before_script:
 
 script:
   - set -e
-  - cd $HOME/gopath/src/github.com/ctylim/certificate-transparency-go-p192
+  - cd $HOME/gopath/src/github.com/ctylim/certificate-transparency-go
   - ./scripts/presubmit.sh ${PRESUBMIT_OPTS}
   - |
       # Check re-generation didn't change anything

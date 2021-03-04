@@ -65,7 +65,7 @@ collect_vars() {
 main() {
   collect_vars "$@"
 
-  readonly CT_GO_PATH=$(go list -f '{{.Dir}}' github.com/ctylim/certificate-transparency-go-p192)
+  readonly CT_GO_PATH=$(go list -f '{{.Dir}}' github.com/ctylim/certificate-transparency-go)
 
   echo "Warning: about to destroy and reset database '${MYSQL_DATABASE}'"
 

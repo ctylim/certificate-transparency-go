@@ -10,7 +10,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ctylim/certificate-transparency-go-p192/asn1"
+	"github.com/ctylim/certificate-transparency-go/asn1"
 )
 
 // IPAddressPrefix describes an IP address prefix as an ASN.1 bit string,

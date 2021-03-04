@@ -31,8 +31,8 @@ import (
 	"time"
 
 	"github.com/golang/glog"
-	ct "github.com/ctylim/certificate-transparency-go-p192"
-	"github.com/ctylim/certificate-transparency-go-p192/x509"
+	ct "github.com/ctylim/certificate-transparency-go"
+	"github.com/ctylim/certificate-transparency-go/x509"
 	"golang.org/x/net/context/ctxhttp"
 )
 

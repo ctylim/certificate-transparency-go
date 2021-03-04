@@ -24,10 +24,10 @@ import (
 	"time"
 
 	"github.com/golang/protobuf/ptypes"
-	ct "github.com/ctylim/certificate-transparency-go-p192"
-	"github.com/ctylim/certificate-transparency-go-p192/client/configpb"
-	"github.com/ctylim/certificate-transparency-go-p192/jsonclient"
-	"github.com/ctylim/certificate-transparency-go-p192/x509"
+	ct "github.com/ctylim/certificate-transparency-go"
+	"github.com/ctylim/certificate-transparency-go/client/configpb"
+	"github.com/ctylim/certificate-transparency-go/jsonclient"
+	"github.com/ctylim/certificate-transparency-go/x509"
 	"google.golang.org/protobuf/encoding/prototext"
 	"google.golang.org/protobuf/proto"
 )

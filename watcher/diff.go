@@ -21,8 +21,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ctylim/certificate-transparency-go-p192/schedule"
-	"github.com/ctylim/certificate-transparency-go-p192/x509util"
+	"github.com/ctylim/certificate-transparency-go/schedule"
+	"github.com/ctylim/certificate-transparency-go/x509util"
 	"github.com/sergi/go-diff/diffmatchpatch"
 )
 

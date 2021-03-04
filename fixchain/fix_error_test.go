@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/ctylim/certificate-transparency-go-p192/x509"
+	"github.com/ctylim/certificate-transparency-go/x509"
 )
 
 func TestEqual(t *testing.T) {

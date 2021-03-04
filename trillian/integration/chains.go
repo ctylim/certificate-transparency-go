@@ -21,12 +21,12 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ctylim/certificate-transparency-go-p192/trillian/ctfe/configpb"
-	"github.com/ctylim/certificate-transparency-go-p192/x509"
+	"github.com/ctylim/certificate-transparency-go/trillian/ctfe/configpb"
+	"github.com/ctylim/certificate-transparency-go/x509"
 	"github.com/google/trillian/crypto/keys"
 	"github.com/google/trillian/crypto/keyspb"
 
-	ct "github.com/ctylim/certificate-transparency-go-p192"
+	ct "github.com/ctylim/certificate-transparency-go"
 )
 
 // ChainGenerator encapsulates objects that can generate certificate chains for testing.

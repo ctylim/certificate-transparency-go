@@ -18,7 +18,7 @@ import (
 	"crypto/sha256"
 	"sort"
 
-	"github.com/ctylim/certificate-transparency-go-p192/x509"
+	"github.com/ctylim/certificate-transparency-go/x509"
 )
 
 const hashSize = sha256.Size

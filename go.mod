@@ -1,4 +1,4 @@
-module github.com/ctylim/certificate-transparency-go-p192
+module github.com/ctylim/certificate-transparency-go
 
 go 1.12
 

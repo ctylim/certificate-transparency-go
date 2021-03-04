@@ -19,7 +19,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ctylim/certificate-transparency-go-p192/testdata"
+	"github.com/ctylim/certificate-transparency-go/testdata"
 )
 
 func TestGenerateHash(t *testing.T) {

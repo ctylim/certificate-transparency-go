@@ -1,7 +1,7 @@
 FROM golang:1.11 as build
 
-ADD . /go/src/github.com/ctylim/certificate-transparency-go-p192
-WORKDIR /go/src/github.com/ctylim/certificate-transparency-go-p192
+ADD . /go/src/github.com/ctylim/certificate-transparency-go
+WORKDIR /go/src/github.com/ctylim/certificate-transparency-go
 
 ARG GOFLAGS=""
 ENV GOFLAGS=$GOFLAGS

@@ -23,9 +23,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ctylim/certificate-transparency-go-p192/testdata"
-	"github.com/ctylim/certificate-transparency-go-p192/tls"
-	"github.com/ctylim/certificate-transparency-go-p192/x509"
+	"github.com/ctylim/certificate-transparency-go/testdata"
+	"github.com/ctylim/certificate-transparency-go/tls"
+	"github.com/ctylim/certificate-transparency-go/x509"
 )
 
 func TestVerifySignature(t *testing.T) {

@@ -27,9 +27,9 @@ import (
 	"time"
 
 	"github.com/golang/glog"
-	ct "github.com/ctylim/certificate-transparency-go-p192"
-	"github.com/ctylim/certificate-transparency-go-p192/loglist"
-	"github.com/ctylim/certificate-transparency-go-p192/x509util"
+	ct "github.com/ctylim/certificate-transparency-go"
+	"github.com/ctylim/certificate-transparency-go/loglist"
+	"github.com/ctylim/certificate-transparency-go/x509util"
 )
 
 var (

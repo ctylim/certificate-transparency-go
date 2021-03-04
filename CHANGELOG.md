@@ -212,7 +212,7 @@ A dedicated node pool is no longer required by the Kubernetes manifests.
 A new package has been created for parsing, searching and creating JSON log
 lists compatible with the
 [v2 schema](http://www.gstatic.com/ct/log_list/v2_beta/log_list_schema.json):
-`github.com/ctylim/certificate-transparency-go-p192/loglist2`.
+`github.com/ctylim/certificate-transparency-go/loglist2`.
 
 ### Docker Images
 

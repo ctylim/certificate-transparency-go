@@ -47,7 +47,7 @@ fi
 
 
 echo "Building docker images.."
-cd $GOPATH/src/github.com/ctylim/certificate-transparency-go-p192
+cd $GOPATH/src/github.com/ctylim/certificate-transparency-go
 docker build --quiet -f trillian/examples/deployment/docker/ctfe/Dockerfile -t gcr.io/${PROJECT_ID}/ctfe:${IMAGE_TAG} .
 
 echo "Pushing docker image..."
