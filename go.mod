@@ -27,4 +27,7 @@ require (
 	google.golang.org/protobuf v1.25.0
 )
 
-replace github.com/google/certificate-transparency-go => ./
+replace (
+	github.com/google/certificate-transparency-go => ./
+	github.com/google/certificate-transparency-go/x509 => ./x509
+)
