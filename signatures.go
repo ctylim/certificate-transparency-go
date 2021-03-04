@@ -25,8 +25,8 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/ctylim/certificate-transparency-go/tls"
-	"github.com/ctylim/certificate-transparency-go/x509"
+	"github.com/google/certificate-transparency-go/tls"
+	"github.com/google/certificate-transparency-go/x509"
 )
 
 // AllowVerificationWithNonCompliantKeys may be set to true in order to allow

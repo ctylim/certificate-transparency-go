@@ -24,13 +24,13 @@ import (
 
 	"github.com/golang/glog"
 	"github.com/golang/protobuf/ptypes"
-	"github.com/ctylim/certificate-transparency-go/client"
-	"github.com/ctylim/certificate-transparency-go/scanner"
-	"github.com/ctylim/certificate-transparency-go/trillian/ctfe"
-	"github.com/ctylim/certificate-transparency-go/trillian/ctfe/configpb"
-	"github.com/ctylim/certificate-transparency-go/x509"
+	"github.com/google/certificate-transparency-go/client"
+	"github.com/google/certificate-transparency-go/scanner"
+	"github.com/google/certificate-transparency-go/trillian/ctfe"
+	"github.com/google/certificate-transparency-go/trillian/ctfe/configpb"
+	"github.com/google/certificate-transparency-go/x509"
 
-	ct "github.com/ctylim/certificate-transparency-go"
+	ct "github.com/google/certificate-transparency-go"
 )
 
 // CopyChainGenerator creates certificate chains by copying suitable examples

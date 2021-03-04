@@ -16,10 +16,10 @@ package loglist
 import (
 	"testing"
 
-	"github.com/ctylim/certificate-transparency-go/testdata"
-	"github.com/ctylim/certificate-transparency-go/trillian/ctfe"
-	"github.com/ctylim/certificate-transparency-go/x509"
-	"github.com/ctylim/certificate-transparency-go/x509util"
+	"github.com/google/certificate-transparency-go/testdata"
+	"github.com/google/certificate-transparency-go/trillian/ctfe"
+	"github.com/google/certificate-transparency-go/x509"
+	"github.com/google/certificate-transparency-go/x509util"
 
 	"github.com/kylelemons/godebug/pretty"
 )

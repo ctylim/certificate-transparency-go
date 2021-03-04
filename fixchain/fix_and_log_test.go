@@ -21,9 +21,9 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/ctylim/certificate-transparency-go/client"
-	"github.com/ctylim/certificate-transparency-go/jsonclient"
-	"github.com/ctylim/certificate-transparency-go/x509"
+	"github.com/google/certificate-transparency-go/client"
+	"github.com/google/certificate-transparency-go/jsonclient"
+	"github.com/google/certificate-transparency-go/x509"
 )
 
 var newFixAndLogTests = []fixAndLogTest{

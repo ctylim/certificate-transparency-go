@@ -19,10 +19,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ctylim/certificate-transparency-go/loglist2"
-	"github.com/ctylim/certificate-transparency-go/testdata"
-	"github.com/ctylim/certificate-transparency-go/x509"
-	"github.com/ctylim/certificate-transparency-go/x509util"
+	"github.com/google/certificate-transparency-go/loglist2"
+	"github.com/google/certificate-transparency-go/testdata"
+	"github.com/google/certificate-transparency-go/x509"
+	"github.com/google/certificate-transparency-go/x509util"
 )
 
 func getTestCertPEMShort() *x509.Certificate {

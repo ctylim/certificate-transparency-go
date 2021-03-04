@@ -18,8 +18,8 @@ import (
 	"crypto/sha256"
 
 	"github.com/golang/glog"
-	ct "github.com/ctylim/certificate-transparency-go"
-	"github.com/ctylim/certificate-transparency-go/tls"
+	ct "github.com/google/certificate-transparency-go"
+	"github.com/google/certificate-transparency-go/tls"
 	"github.com/google/trillian"
 )
 

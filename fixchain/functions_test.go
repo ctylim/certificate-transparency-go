@@ -22,9 +22,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ctylim/certificate-transparency-go/x509"
-	"github.com/ctylim/certificate-transparency-go/x509/pkix"
-	"github.com/ctylim/certificate-transparency-go/x509util"
+	"github.com/google/certificate-transparency-go/x509"
+	"github.com/google/certificate-transparency-go/x509/pkix"
+	"github.com/google/certificate-transparency-go/x509util"
 )
 
 type nilLimiter struct{}

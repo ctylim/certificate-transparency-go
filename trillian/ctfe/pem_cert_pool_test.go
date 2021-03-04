@@ -18,8 +18,8 @@ import (
 	"encoding/pem"
 	"testing"
 
-	"github.com/ctylim/certificate-transparency-go/trillian/ctfe/testonly"
-	"github.com/ctylim/certificate-transparency-go/x509"
+	"github.com/google/certificate-transparency-go/trillian/ctfe/testonly"
+	"github.com/google/certificate-transparency-go/x509"
 )
 
 func TestLoadSingleCertFromPEMs(t *testing.T) {

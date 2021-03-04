@@ -22,7 +22,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ctylim/certificate-transparency-go/testdata"
+	"github.com/google/certificate-transparency-go/testdata"
 	"github.com/google/trillian/monitoring"
 )
 

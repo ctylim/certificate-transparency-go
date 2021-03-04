@@ -25,8 +25,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ctylim/certificate-transparency-go/loglist2"
-	"github.com/ctylim/certificate-transparency-go/schedule"
+	"github.com/google/certificate-transparency-go/loglist2"
+	"github.com/google/certificate-transparency-go/schedule"
 	"github.com/google/go-cmp/cmp"
 )
 

@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ctylim/certificate-transparency-go/asn1"
-	"github.com/ctylim/certificate-transparency-go/x509"
+	"github.com/google/certificate-transparency-go/asn1"
+	"github.com/google/certificate-transparency-go/x509"
 )
 
 // IsPrecertificate tests if a certificate is a pre-certificate as defined in CT.

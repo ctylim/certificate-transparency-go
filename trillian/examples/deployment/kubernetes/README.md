@@ -70,9 +70,9 @@ If you want to change the `configmap` you'll need to:
 ## Continuous Integration Example
 
 The master continuous integration (CI)
-[script](https://github.com/ctylim/certificate-transparency-go/blob/master/.travis.yml)
+[script](https://github.com/google/certificate-transparency-go/blob/master/.travis.yml)
 provides an example of deploying a CT Log.  The Travis configuration is set up
 to deploy new builds from the `master` branch of the repo to our GCP
 environment, using the
-[deploy_gce_ci.sh](https://github.com/ctylim/certificate-transparency-go/blob/master/scripts/deploy_gce_ci.sh)
+[deploy_gce_ci.sh](https://github.com/google/certificate-transparency-go/blob/master/scripts/deploy_gce_ci.sh)
 script (which sets environment variables appropriately for that environment).

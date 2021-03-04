@@ -22,9 +22,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	ct "github.com/ctylim/certificate-transparency-go"
-	"github.com/ctylim/certificate-transparency-go/client"
-	"github.com/ctylim/certificate-transparency-go/x509"
+	ct "github.com/google/certificate-transparency-go"
+	"github.com/google/certificate-transparency-go/client"
+	"github.com/google/certificate-transparency-go/x509"
 )
 
 // Limiter is an interface to allow different rate limiters to be used with the

@@ -20,7 +20,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ctylim/certificate-transparency-go/schedule"
+	"github.com/google/certificate-transparency-go/schedule"
 	"github.com/google/trillian/monitoring"
 )
 

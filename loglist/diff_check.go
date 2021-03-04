@@ -20,7 +20,7 @@ import (
 	"reflect"
 	"sort"
 
-	ct "github.com/ctylim/certificate-transparency-go"
+	ct "github.com/google/certificate-transparency-go"
 )
 
 type warningList struct {

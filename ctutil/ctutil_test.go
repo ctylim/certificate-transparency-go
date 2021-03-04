@@ -18,10 +18,10 @@ import (
 	"encoding/base64"
 	"testing"
 
-	ct "github.com/ctylim/certificate-transparency-go"
-	"github.com/ctylim/certificate-transparency-go/testdata"
-	"github.com/ctylim/certificate-transparency-go/tls"
-	"github.com/ctylim/certificate-transparency-go/x509util"
+	ct "github.com/google/certificate-transparency-go"
+	"github.com/google/certificate-transparency-go/testdata"
+	"github.com/google/certificate-transparency-go/tls"
+	"github.com/google/certificate-transparency-go/x509util"
 )
 
 func TestLeafHash(t *testing.T) {
